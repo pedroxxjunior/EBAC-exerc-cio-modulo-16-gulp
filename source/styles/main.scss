@@ -1,0 +1,23 @@
+@use 'variaveis';
+
+body {
+    background-color: variaveis.$corPrincipal;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.container h1, h2 {
+    display: block;
+    color: variaveis.$corSecundaria;
+}
+
+h1 {
+    font-size: 140px;
+}
+
+h2 {
+    font-size: 90px;
+}
